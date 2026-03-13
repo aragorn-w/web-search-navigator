@@ -1,12 +1,35 @@
 # Changelog
 
-As of 2022-06-28, the published versions is `0.4.22` for Chrome and `0.4.22` for
+As of 2023-05-30, the published versions are `0.5.2` for Chrome and `0.5.2` for
 Firefox.
 
 ## Unreleased
 
+## 0.5.2
+
+- General: fix auto-select with no initial results
+- Gitlab: new experimental support
+
+## 0.5.1
+
+- General: open new tabs in the same tab group of the current tab (issue #524)
+
+## 0.5.0
+
+- Google: fix detecting more results when in the new "continuous results" experience
+- Google: fix search box keybindings (#515)
+- Google: fix job cards (#406)
+- Google: exclude sidebar
 - General: don't fail if search result container isn't detected, just write to
   console.
+- YouTube: fix navigation in non-grid pages
+- YouTube: fix grid navigation in home page (issue #405)
+- YouTube: debounce results loading calls
+- Brave: fix navigation to images and videos tabs
+- Startpage: fix input box selection
+- Amazon: fix page navigation buttons
+- Github: fix search box selector (still buggy)
+- Github: fix navigation/mutation detection
 
 ## 0.4.22
 
